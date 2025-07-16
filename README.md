@@ -5,7 +5,6 @@
 This repository contains a powerful and user-friendly image forgery detection system, designed using deep learning models. It helps identify tampered or manipulated images using advanced convolutional neural networks (CNNs) and image-processing techniques.
 
 
-
 ## 🎯 Project Objective
 
 To develop an intelligent system that can detect forged regions in digital images by leveraging deep learning models trained on tampered image datasets.
@@ -32,6 +31,7 @@ To develop an intelligent system that can detect forged regions in digital image
 * Option to save or display results with overlayed predictions
 
 
+
 ## 🧱 System Architecture
 
 * **Frontend**: Command-line interface (CLI) for loading and processing images
@@ -39,7 +39,7 @@ To develop an intelligent system that can detect forged regions in digital image
 * **Preprocessing**: Image resizing, patch extraction, and normalization
 * **Postprocessing**: Forgery map generation using CNN outputs
 
-
+---
 
 ## 🛠 Installation & Setup
 
@@ -81,6 +81,7 @@ You will be prompted to enter:
 * ✅ Output preference (save or display)
 
 
+
 ## 📊 Example Output
 
 * Input: `tampered_image.jpg`
@@ -112,6 +113,7 @@ You will be prompted to enter:
 
 ## 🗂 Project Structure
 
+```
 📁 Image-Forgery-Detection-System
 ├── main.py                     # Entry point of the system
 ├── models/                     # Saved trained models
@@ -120,6 +122,8 @@ You will be prompted to enter:
 ├── output/                     # Detected forged region masks
 ├── requirements.txt
 └── README.md
+```
+
 
 ## 📈 Evaluation Metrics
 
@@ -133,4 +137,7 @@ You will be prompted to enter:
 
 Project by **Chinmayi Porla**
 A deep learning-based approach to image forgery detection with full integration of preprocessing, detection, and visualization.
+
+
+
 
