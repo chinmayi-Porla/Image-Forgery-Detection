@@ -39,7 +39,7 @@ To develop an intelligent system that can detect forged regions in digital image
 * **Preprocessing**: Image resizing, patch extraction, and normalization
 * **Postprocessing**: Forgery map generation using CNN outputs
 
----
+
 
 ## 🛠 Installation & Setup
 
